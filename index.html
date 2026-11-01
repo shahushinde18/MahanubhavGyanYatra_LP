@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>महानुभाव ज्ञान यात्रा - Mahanubhav Gyan Yatra App</title>
+  
+  <!-- OpenGraph Meta Tags for Social Previews (WhatsApp, Instagram, FB) -->
+  <meta property="og:title" content="महानुभाव ज्ञान यात्रा - ॲप डाउनलोड करा">
+  <meta property="og:description" content="महानुभाव पंथाचा सखोल अभ्यास, संपूर्ण आरती संग्रह, नित्य भजने, स्तवने आणि प्रश्नमंजुषा.">
+  <meta property="og:type" content="website">
+
+  <style>
+    :root {
+      --primary-color: #c85a17; /* Warm App Bar Color */
+      --primary-hover: #a6460e;
+      --bg-color: #faf5ee;      /* Warm Canvas Background */
+      --card-bg: #ffffff;
+      --text-main: #2b1f1d;
+      --text-muted: #6b5c57;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 440px;
+      width: 100%;
+      text-align: center;
+    }
+
+    /* App Header */
+    .app-icon {
+      width: 96px;
+      height: 96px;
+      border-radius: 22px;
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+      margin-bottom: 16px;
+      object-fit: cover;
+      background-color: #fff;
+    }
+
+    h1 {
+      font-size: 26px;
+      font-weight: 700;
+      color: var(--primary-color);
+      margin-bottom: 6px;
+    }
+
+    .subtitle {
+      font-size: 15px;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+      line-height: 1.4;
+    }
+
+    /* Primary CTA Button */
+    .playstore-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      background-color: var(--primary-color);
+      color: #ffffff;
+      text-decoration: none;
+      width: 100%;
+      padding: 16px 20px;
+      border-radius: 14px;
+      font-size: 18px;
+      font-weight: 600;
+      box-shadow: 0 6px 14px rgba(200, 90, 23, 0.25);
+      transition: all 0.2s ease;
+      margin-bottom: 24px;
+    }
+
+    .playstore-btn:hover {
+      background-color: var(--primary-hover);
+      transform: translateY(-2px);
+    }
+
+    .playstore-btn svg {
+      width: 26px;
+      height: 26px;
+      fill: currentColor;
+    }
+
+    /* Card Details */
+    .card {
+      background: var(--card-bg);
+      border-radius: 18px;
+      padding: 22px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      margin-bottom: 20px;
+    }
+
+    .card h2 {
+      font-size: 17px;
+      margin-bottom: 12px;
+      color: var(--text-main);
+    }
+
+    /* QR Code Container */
+    .qr-box {
+      display: inline-block;
+      padding: 12px;
+      background: #ffffff;
+      border-radius: 12px;
+      border: 1px solid #eee;
+      margin-bottom: 8px;
+    }
+
+    .qr-box img {
+      display: block;
+      width: 170px;
+      height: 170px;
+    }
+
+    .qr-caption {
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    /* Feature Badges */
+    .features-list {
+      list-style: none;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-size: 14px;
+      color: var(--text-main);
+      padding: 4px 8px;
+    }
+
+    .features-list li {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .features-list span {
+      font-size: 16px;
+    }
+
+    footer {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 20px;
+      padding-bottom: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- App Logo (Replace icon.png with your app icon path or remote URL) -->
+    <img src="icon.png" alt="Mahanubhav Gyan Yatra Icon" class="app-icon" onerror="this.src='https://via.placeholder.com/96/c85a17/ffffff?text=MGY'">
+
+    <h1>महानुभाव ज्ञान यात्रा</h1>
+    <p class="subtitle">Mahanubhav Tradition • Quizzes • Daily Aarti & Bhajan Collection</p>
+
+    <!-- Main Call To Action Button (Direct Deep Link to Play Store) -->
+    <!-- REPLACE YOUR_PACKAGE_NAME_HERE below with your actual package (e.g. com.example.mahanubhavgyanyatra) -->
+    <a href="https://play.google.com/store/apps/details?id=com.shahushinde.mahanubhavgyanyatra" class="playstore-btn">
+      <svg viewBox="0 0 24 24">
+        <path d="M3.609 1.814L13.792 12 3.61 22.186a1.996 1.996 0 0 1-.61-1.428V3.242c0-.555.225-1.057.609-1.428zm11.233 11.233l2.257 2.257-11.458 6.547 9.201-8.804zm0-2.094L5.641 2.149 17.1 8.696l-2.258 2.257zm1.096 1.047l3.66-2.091c.795-.454.795-1.196 0-1.65l-3.66-2.091-2.094 2.094 2.094 2.094z"/>
+      </svg>
+      <span>Google Play वरून डाउनलोड करा</span>
+    </a>
+
+    <!-- QR Code Card -->
+    <div class="card">
+      <h2>मोबाईलवरून स्कॅन करा (Scan to Install)</h2>
+      <div class="qr-box">
+        <!-- Uses your local generated QR image file -->
+        <img src="qr.png" alt="Mahanubhav Gyan Yatra Play Store QR Code">
+      </div>
+      <p class="qr-caption">कॅमेरा उघडून QR कोड स्कॅन करा</p>
+    </div>
+
+    <!-- App Highlights Card -->
+    <div class="card">
+      <ul class="features-list">
+        <li><span>🪔</span> <strong>नित्य आरती व भजन:</strong> सुवाच्य मांडणी, A+/A- झूम सोय</li>
+        <li><span>📚</span> <strong>पंथाचा अभ्यास:</strong> श्री चक्रधर स्वामी, पंचकृष्ण व साहित्य</li>
+        <li><span>🧠</span> <strong>प्रश्नमंजुषा:</strong> ज्ञानाची चाचणी व प्रगती ट्रॅकिंग</li>
+        <li><span>🔒</span> <strong>सुरक्षित व मोफत:</strong> कोणत्याही लॉगिनशिवाय उपलब्ध</li>
+      </ul>
+    </div>
+
+    <footer>
+      जय कृष्णारूध • Mahanubhav Gyan Yatra
+    </footer>
+  </div>
+
+</body>
+</html>
